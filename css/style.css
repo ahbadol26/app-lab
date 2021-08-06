@@ -1,0 +1,733 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+  }
+  /* google fonts css link */
+  /*
+   font-family: 'Poppins', sans-serif;
+   */
+/* google fonts css link */
+
+body,ul,h1,h2,h3,h4,h5,h6,p,span,button,a,textarea,input{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* header sectioin start from here */
+
+/*  =====--=navabr==== */
+.nav-item{
+padding: 20px 0px;
+ }
+.nav-item{
+  font-family: 'Poppins', sans-serif;
+  padding-right: 15px;
+  font-weight: 500;
+  font-size: 15px;
+ }
+.nav-item a{
+  color: #757c91;
+}
+.navbar img{
+  margin: 0px -98px;
+}
+.bb-btn{
+  padding: 10px 25px;
+  background-color: #2500f9;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+ }
+.bb-btn{
+  position: relative;
+  transition: 0.3s;
+  z-index: 9;
+ 
+}
+.bb-btn::after{
+ position: absolute;
+ content: '';
+ height: 0px;
+ right: 0px;
+ left: 0px;
+ bottom: 0%;
+ width: 100%;
+ background: #e99a4a;
+ transition: 0.2s;
+ z-index: -9;
+}
+.bb-btn:hover::after{
+  height: 100%;
+  border-bottom-left-radius:50px ;
+  border-top-right-radius:50px ;
+}
+
+
+/*  =====--=navabr==== */
+
+
+/* header sectioin end from here */
+
+
+
+/*==== banner sectioin start from here ==*/
+.banner{
+padding: 0px 0px;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/banner\ bgc.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bann-sp{
+  margin-bottom: 10px;
+  background-color: #e2eaed;
+  display:inline-block;
+  padding: 6px 38px 6px 0px;
+  border-radius: 50px;
+}
+.ban-upp{
+margin-left: 5px;
+font-size: 16px;
+font-weight: 500;
+}
+.ban-up{
+font-size: 13px;
+}
+.ban-up{
+  padding:9px 8px ;
+  border-radius: 50%;
+  background-color: #feaa25;
+  color: brown;
+}
+.banner-text{
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.banner-text .bt{
+  margin-left: 16px;
+}
+.banner-text a{
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.banner-text a{
+  margin: 0px;
+  padding: 0px;
+}
+.banner-text h1{
+  color: #242f51;
+  font-family: 'Poppins', sans-serif;
+ font-weight: 700;
+ font-size: 60px;
+}
+.banner-text h6{
+  color: #616368;
+  font-family: 'Poppins', sans-serif;
+ font-size:17px;
+ margin: 30px 0px;
+ margin-right: 89px; ;
+}
+.bb-btn:hover{
+background-color: rgb(57, 214, 78);
+}
+/*===== banner sectioin end from here== */
+
+/* <!--lower banner css start from here --> */
+.lower-banner{
+  width: 100%;
+padding: 80px 0px;
+text-align: center;
+}
+
+.logo-slider{
+  margin:50px 0px;
+}
+.owl-carousel .owl-item img{
+  display: inline-block ;
+  width: auto ;
+}
+
+
+/* <!--lower banner css start from here --> */
+
+.phone-features{
+  padding: 20px 0px;
+}
+.features-text h2{
+  font-size: 36px;
+  font-weight: 600;
+  margin-right: 171px;
+  color: #242f51;
+
+}
+.features-text h6{
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 111px;
+  color: #757883;
+  margin-bottom: 110px;
+}
+.p-f h5{
+font-size: 20px;
+font-weight: 600;
+color: #f7818d;
+}
+.p-f p{
+font-size: 16px;
+font-weight: 400;
+color: #8a8183;
+}
+.p-f img{
+  height: 11vh;
+  margin: 13px 0px 0px 18px;
+}
+.p-m {
+padding: 50px 0px;
+}
+.p-m h5{
+  color: #2563ff;
+}
+.p-m img{
+  height: 11vh;
+  margin: 13px 0px 0px 18px;
+}
+.p-l h5{
+  color: #40975f;
+}
+.p-l img{
+  height: 11vh;
+  margin: 13px 0px 0px 18px;
+}
+/* <!--phone-features banner section end from here --> */
+
+/* <!--phone-features text banner section start from here --> */
+.phnf-text{
+  padding: 50px 0px;
+}
+.phnf-text h2{
+ color: #242f51;
+ font-size: 40px;
+ font-weight:600;
+ margin-right: 19px;
+}
+
+.phnf-text  .lomba{
+  height: 132px;
+  width: 1px;
+  padding: 1px;
+  background-color: #ded1d4;
+}
+.phnf-text  .lomba{
+ margin: 0px 90px;
+
+}
+
+.phnf-text p{
+  margin-top: 30px;
+}
+
+/* phone-features  text banner section end from here  */
+
+/* <!--phone-features details section end from here --> */
+.phn-details{
+  padding: 50px 0px;
+}
+
+
+.details{
+  display:flex;
+justify-content: space-between;
+}
+
+.details img{
+  padding-bottom: 15px ;
+}
+
+.details .d-f{
+  font-size: 20px;
+  color: #f7818d;
+
+
+}
+.details .d-m{
+  font-size: 20px;
+  color: #2563ff;
+}
+.details .d-l{
+  font-size: 20px;
+  color: #40975f;
+}
+
+/* <!--phone-features details section end from here --> */
+
+/* <!--phone design  section start from here --> */
+.phn-design{
+  padding: 130px 0px;
+}
+.phn-design{
+  box-shadow: 0px 2px 0px 0px gainsboro;
+}
+
+.phn-d{
+display: flex;
+margin-left: 80px;
+}
+.phn-d .pd{
+margin-left: 80px;
+margin-top: 50px;
+}
+
+.phn-d h2{
+ font-size: 36px;
+ font-weight: 600;
+ color: #242f51;
+}
+.phn-d p{
+font-size: 16px;
+font-weight: 300;
+margin: 27px 0px;
+color: #616368;
+}
+.phn-d .p-btn{
+
+}
+
+/* <!--phone design  section end from here --> */ 
+/* <!--phone informationsection start from here --> */
+.phone-terms{
+  padding: 70px 0px;
+}
+.terms-text{
+  text-align: center;
+}
+.terms-text h2{
+font-size: 36px;
+font-weight: 600;
+color: #242f51;
+margin-bottom: 25px;
+}
+.terms-text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+}
+.phone-term{
+  padding:40px 0px;
+  text-align: left;
+  text-align: center;
+}
+.phone-term h5{
+  margin-top:15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #242f51;
+}
+.phone-term p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #776f71;
+}
+/* <!--phone information section start from here --> */
+
+
+/* phone ultimate features section start from here */
+.phone-ultimate{
+padding: 40px 0px;
+
+  }
+.ultimate-text{
+margin-bottom: 50px;
+
+}
+.ultimate-text h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #242f51;
+  margin-bottom: 25px;
+}
+.ultimate-text h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #242f51;
+  margin-bottom: 25px;
+}
+.ultimate-text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #929497;
+  margin-bottom: 25px;
+}
+#ulapp{
+right:0;
+bottom: 0;
+}
+
+.{
+  font-size: 20px;
+  font-weight: 600;
+  color: #242f51;
+}
+.im21 h4, .im22 h4, .im23 h4, .im24 h4{
+position: absolute;
+
+}
+.ul-app p{
+  font-size: 15px;
+  font-weight: 400;
+  color: #94979b;
+}
+.ul-app img{
+margin-bottom: 20px;
+}
+/* phone ultimate features section end from here */
+
+  /* ======pricing section start from here===== */
+.pricing{
+  width: 100%;
+  padding:80px 0px;
+}
+.pricing-title{
+  padding-right:50px;
+text-align:center;
+}
+.pricing-title h2{
+font-size: 36px;
+font-weight: 600;
+color:#242f51;
+margin-bottom:24px;
+}
+.price-table{
+padding: 36px 0px;
+text-align: center;
+}
+.price-controller{
+     border:1px solid #242f51; 
+     display: inline-block; 
+
+  }
+.price-controller{
+padding: 9px 23px;
+border: none;
+border: 1px solid #ebebeb;
+border-radius: 35px;
+display: inline-block;
+}
+.price-bb{
+padding: 10px 23px;
+border: none;
+background: transparent;
+border-radius: 35px;
+}
+.price-table .active{
+  background: #2500f9;
+  color: #e2eaed;
+}
+
+#card-table{
+  margin: 70px 0px;
+}
+.card-header{
+  background-color: #f4f7f9 !important;
+  padding: 40px 0px;
+  border: none !important;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.card-header h2{
+margin-top:30px;
+ color:#242f51 ;
+ font-size: 60px;
+ font-weight: 600;
+}
+.card-header h2 span{
+color: #c2c5c8;
+font-size: 18px;
+font-weight: 400;
+}
+.card-header strong{
+ color: #242f51;
+ font-size: 20px;
+ font-weight: 600;
+}
+.card-header p, .card-body p{
+  color: #9b9ca0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-body p{
+ margin: 0px;
+ margin: 26px 0px;
+
+}
+.card-body {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+
+}
+
+.buy-btn{
+  padding: 10px 32px;
+  border: none;
+  border-radius: 45px;
+  color: white;
+  background-color: #2500f9;
+  transition: 0.3s;
+}
+.buy-btn:hover{
+  color: white;
+  background-color:#9b9ca0 ;
+  transform: scale(.9);
+  transition: 0.3s;
+}
+.card-active{
+  border: none;
+  box-shadow: 2px 3px 16px -5px;
+}
+.card-body .under{
+  color: #6954e6;
+  font-size: 15px;
+  font-weight: 300;
+}
+  /* ======pricing section end from here===== */
+
+
+
+           
+           
+  /* <!--testimonial section start from here --> */
+.testimonial{
+  width: 100%;
+  padding: 50px 0px;
+  position: relative;
+}
+.testimonial-title h2{
+    margin-top:30px;
+     color:#242f51 ;
+     font-size: 34px;
+     font-weight: 600;
+}
+.testimonial-title p, .testimonial-title .pp{
+
+    color: #9b9ca0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+
+.choto{
+  margin: 16px 0px;
+}
+
+.testimonial-title h4{
+ 
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 17px;
+  }
+.kk h6{
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #242f51;
+}
+.kk h7{ 
+  font-size: 18px;
+  font-weight: 500;
+  color: #9b9ca0;
+}
+.kk .ll{
+  margin-top: 21px;
+}
+
+.kk a i{
+
+  padding-left: 
+  370px;
+
+}
+
+.tes-img{
+  position: absolute;
+    left: 0;
+    bottom:0;
+    left: -15px;
+}
+  /* <!-- <!-testimonial- section end from here -->  */
+
+  /* <!-- <!-faq- section start from here -->  */
+.frequently{
+  width: 100%;
+padding: 90px 0px;
+
+}
+.freq-test{
+  text-align: center;
+}
+.frequently h2{
+  margin-bottom:30px;
+  color:#242f51 ;
+  font-size: 40px;
+  font-weight: 600;
+}
+.frequently p{
+  color:#616368 !important ;
+  font-size: 15px;
+  font-weight: 400;
+}
+.freq-item{
+  margin: 0px;
+margin-top: 30px;
+}
+.accordion-item{
+ background-color: #f5f7fa !important;
+  border: none !important;
+  padding: 20px 0px;
+margin-bottom: 8px;
+}
+.accordion-item{
+padding: 0px !important;
+
+}
+#headingOne, #headingTwo, #headinThree, #headingFour {
+  margin: 2px !important;
+}
+.accordion-header{
+color: #f5f7fa !important;
+}
+#accordionExample .accordion-button{
+  color: #616368 !important;
+  font-size: 20px;
+  font-weight: 600;
+box-shadow: none;
+}
+.accordion-button{
+  color: #242f51 !important;
+  font-weight: 600;
+background-color: #f5f7fa !important;
+padding: 20px;
+}
+.accordion-button:not('collapsed'){
+padding:18px 24px !important; 
+}
+
+#accordionExample .accordion-body{
+  color: #242f51 !important;
+  font-size: 16px;
+  font-weight: 400;
+box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url(../img/add.png) !important;
+}
+.accordion-button:not(.collapsed)::after {
+
+  background-image:url(../img/minus.png) !important;
+}
+  /* <!-- <!-faq- section end from here -->  */
+
+  /* <!--- link section start from here -->  */
+  .links{
+    margin: 0;
+    padding: 0;
+    padding-top:20px;
+  }
+  .link-cont h2{
+    margin-bottom: 20px;
+    color:#242f51 ;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .link-cont p{
+    color:#8a8b8d;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .link-cont img{
+margin-top: 30px;
+width: 220px;
+height: 35px;
+
+  }
+
+
+/*  */
+  /* <!--- link section end from here -->  */
+
+  /* <!--- footer section start from here -->  */
+.footer{
+
+  height: 350px;
+  width: auto;
+  background-color: #09142e;
+  text-align: center;
+}
+.sob {
+margin-top: 48px;
+}
+.sob h7{
+font-weight: 700;
+font-size: 30px;
+color: #e99a4a ;
+}
+.footer span{
+font-weight: 700;
+font-size: 30px;
+color: #fefefe !important;
+}
+
+.linee ul{
+list-style: none;
+font-size: 15px;
+font-weight: 300;
+}
+.linee{
+margin-top: 40px;
+}
+
+.linee ul li {
+display: inline-block;
+
+}
+.linee ul li a {
+  padding: 12px;
+color: #eeeef0;
+text-decoration: none;
+}
+
+
+.logo {
+margin-top: 35px;
+}
+.logo a{
+color: #6a6f7a;
+padding: 10px;
+font-size: 20px;
+}
+.logo #slack{
+color: #eaebec !important;
+}
+.logo p{
+  margin-top: 80px;
+color: #686c75;
+}
+
+
+  /* <!--- footer section end from here -->  */
